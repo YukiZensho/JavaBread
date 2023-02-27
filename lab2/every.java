@@ -52,7 +52,9 @@ class Road{
     public void setLoacationFinish(Location newFinish){
         finish = newFinish;
     }
-
+    public String toString() {
+        return getName();
+    }
 }
 
 class Location{
@@ -84,10 +86,13 @@ class Location{
     public void setPosition(Coords newPosition){
         pos = newPosition;
     }
+    public String toString() {
+        return getName();
+    }
 }
 
 class oWorld {
     public static void main(String[] args) {
-        System.out.println("Basic stuff ig!"); 
+        
     }
 }
